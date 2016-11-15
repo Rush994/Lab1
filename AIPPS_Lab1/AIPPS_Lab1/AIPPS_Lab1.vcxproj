@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Iterator.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{72E4B7BC-2C6D-4AEA-A93C-EE5D3D95528C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
