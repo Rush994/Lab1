@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 class Stack
 {
@@ -68,8 +67,10 @@ int main()
 	s3.pop();
 	s4.push(2);
 	s5.push(9);
-	cout << "1 == 2 is " << (s1 == s2) << endl;
-	cout << "1 == 3 is " << (s1 == s3) << endl;
-	cout << "1 == 4 is " << (s1 == s4) << endl;
-	cout << "1 == 5 is " << (s1 == s5) << endl;
+	std::cout << "1 == 2 is " << (s1 == s2) << std::endl;
+	std::cout << "1 == 3 is " << (s1 == s3) << std::endl;
+	std::cout << "1 == 4 is " << (s1 == s4) << std::endl;
+	std::cout << "1 == 5 is " << (s1 == s5) << std::endl;
+	std::cin.get();
+	return 0;
 }
