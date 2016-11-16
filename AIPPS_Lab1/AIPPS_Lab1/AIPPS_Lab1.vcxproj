@@ -11,7 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bridge.cpp" />
     <ClCompile Include="Iterator.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
