@@ -58,17 +58,17 @@ bool operator == (const Stack &l, const Stack &r)
 
 int main()
 {
-	Stack s1; // Созддаём объект стека с начальной глубиной -1
+	Stack s1; // Make object with initial "sp = -1"
 	int i;
-	for (i = 1; i < 5; i++) // Заполняе его 4 значениями
+	for (i = 1; i < 5; i++) // Fill it with 4 values
 		s1.push(i);
-	// После цикла sp=3 значения 
-	// Создаём ещё 4 объекта стека
+	// After loop, we have sp=3 value 
+	// Make 4 objects of stack
 	Stack s2(s1), s3(s1), s4(s1), s5(s1);
-	s3.pop();	// -1 из s3(sp=2 значения)
-	s5.pop();	// -1 из s5(sp=2 значения)
-	s4.push(2);	// +1 в s4(sp=4 значений)
-	s5.push(9);	// +1 в s5(sp=3 значений)
+	s3.pop();	// -1 из s3(sp=2)
+	s5.pop();	// -1 из s5(sp=2)
+	s4.push(2);	// +1 в s4(sp=4)
+	s5.push(9);	// +1 в s5(sp=3)
 	std::cout << "1 == 2 is " << (s1 == s2) << std::endl; // 1
 	std::cout << "1 == 3 is " << (s1 == s3) << std::endl; // 0
 	std::cout << "1 == 4 is " << (s1 == s4) << std::endl; // 0
