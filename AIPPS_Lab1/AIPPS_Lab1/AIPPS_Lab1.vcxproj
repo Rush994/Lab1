@@ -11,8 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bridge.cpp" />
-    <ClCompile Include="Iterator.cpp" />
+    <ClInclude Include="Classes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{72E4B7BC-2C6D-4AEA-A93C-EE5D3D95528C}</ProjectGuid>
